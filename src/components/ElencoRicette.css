@@ -1,0 +1,29 @@
+@media only screen and (max-width: 426px) {
+  .elenco-ricette {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 1441px) {
+  .elenco-ricette {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1442px) {
+  .elenco-ricette {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

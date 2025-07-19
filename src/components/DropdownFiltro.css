@@ -1,0 +1,111 @@
+@media only screen and (max-width: 426px) {
+  .filtro-dropdown .btn-primary {
+    background-color: transparent !important;
+    border: none;
+    color: #563b30;
+    border-radius: 10px;
+    padding: 6px 05px;
+    width: 70px;
+  }
+
+  .selectedItem:active {
+    background-color: #f4dab5 !important;
+  }
+
+  .show {
+    border-radius: 10px;
+  }
+
+  .selectedItem {
+    font-size: 1rem;
+    padding: 3px 20px;
+  }
+  .btn-filtro {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #d7a550;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .Ricette {
+    position: absolute;
+    top: 90px;
+    display: flex;
+    justify-content: flex-end;
+    right: 15px;
+  }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 1441px) {
+  .filtro-dropdown .btn-primary {
+    background-color: transparent !important;
+    border: none;
+    color: #563b30;
+    border-radius: 20px;
+    padding: 11px 20px;
+    font-size: 1.7rem;
+  }
+
+  .show {
+    border-radius: 10px;
+  }
+
+  .selectedItem:active {
+    background-color: #f4dab5 !important;
+  }
+
+  .selectedItem {
+    font-size: 1.7rem;
+    padding: 10px 100px 10px 30px;
+  }
+  .btn-filtro {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #d7a550;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .Ricette {
+    position: absolute;
+    top: 120px;
+    display: flex;
+    justify-content: flex-end;
+    right: 40px;
+  }
+}
+
+@media (min-width: 1442px) {
+  .filtro-dropdown .btn-primary {
+    background-color: transparent !important;
+    border: none;
+    color: #563b30;
+    border-radius: 40px;
+    padding: 20px 35px;
+    font-size: 3.3rem;
+  }
+
+  .show {
+    border-radius: 30px;
+  }
+
+  .selectedItem:active {
+    background-color: #f4dab5 !important;
+  }
+
+  .selectedItem {
+    font-size: 2.7rem;
+    padding: 20px 170px 20px 60px;
+  }
+  .Ricette {
+    position: absolute;
+    top: 250px;
+    display: flex;
+    justify-content: flex-end;
+    right: 100px;
+  }
+}
