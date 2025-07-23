@@ -9,28 +9,33 @@ import { CercaRicetta } from "./pages/CercaRicetta.jsx";
 import { RicettaSelezionata } from "./pages/RicettaSelezionata.jsx";
 import { ElencoRicetteProvider } from "./stores/ElencoRicetteContext.jsx";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: `/`,
+      element: <App></App>,
+    },
+    {
+      path: `/perche`,
+      element: <Perche></Perche>,
+    },
+    {
+      path: `/perIngrediente`,
+      element: <RicettePerIngrediente></RicettePerIngrediente>,
+    },
+    {
+      path: `/cerca`,
+      element: <CercaRicetta></CercaRicetta>,
+    },
+    {
+      path: `/:ricettaID`,
+      element: <RicettaSelezionata></RicettaSelezionata>,
+    },
+  ],
   {
-    path: `/`,
-    element: <App></App>,
-  },
-  {
-    path: `/perche`,
-    element: <Perche></Perche>,
-  },
-  {
-    path: `/perIngrediente`,
-    element: <RicettePerIngrediente></RicettePerIngrediente>,
-  },
-  {
-    path: `/cerca`,
-    element: <CercaRicetta></CercaRicetta>,
-  },
-  {
-    path: `/:ricettaID`,
-    element: <RicettaSelezionata></RicettaSelezionata>,
-  },
-]);
+    basename: "/ricette-vegetariane", // <-- aggiungi questo!
+  }
+);
 ReactDOM.createRoot(document.getElementById("root")).render(
   <ElencoRicetteProvider>
     <React.StrictMode>
