@@ -9,7 +9,7 @@ export const RicettaID = ({
     <>
       <div className="ricetta">
         <div className="img-contenitore">
-          <img src={ricettaIMG} alt="pizza" />
+          <img src={ricettaIMG} alt="img ricetta" />
         </div>
 
         <div className="titolo-contenitore">

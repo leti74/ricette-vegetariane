@@ -4,6 +4,10 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .link-ricetta {
+    text-decoration: none;
+  }
 }
 
 @media only screen and (min-width: 427px) and (max-width: 1441px) {
@@ -15,6 +19,10 @@
     gap: 40px;
     flex-wrap: wrap;
   }
+
+  .link-ricetta {
+    text-decoration: none;
+  }
 }
 
 @media (min-width: 1442px) {
@@ -25,5 +33,9 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .link-ricetta {
+    text-decoration: none;
   }
 }

@@ -7,6 +7,7 @@ import { Perche } from "./pages/Perche.jsx";
 import { RicettePerIngrediente } from "./pages/RicettePerIngrediente.jsx";
 import { CercaRicetta } from "./pages/CercaRicetta.jsx";
 import { RicettaSelezionata } from "./pages/RicettaSelezionata.jsx";
+import { ElencoRicetteProvider } from "./stores/ElencoRicetteContext.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,12 +27,14 @@ const router = createBrowserRouter([
     element: <CercaRicetta></CercaRicetta>,
   },
   {
-    path: `/cerca/:ricettaID`,
+    path: `/:ricettaID`,
     element: <RicettaSelezionata></RicettaSelezionata>,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <ElencoRicetteProvider>
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  </ElencoRicetteProvider>
 );

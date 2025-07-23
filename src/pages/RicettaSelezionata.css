@@ -1,0 +1,371 @@
+@media only screen and (max-width: 426px) {
+  .ricettaSelezionata {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ricettaSelezionata-img {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 325px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(65%);
+  }
+
+  .titolo-ricetta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .dettagli {
+    text-align: start;
+    margin-left: 40px;
+  }
+
+  .dettagli p {
+    margin-top: 10px;
+    margin-top: 20px;
+  }
+
+  .immagine-titolo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .ricettaSelezionata-descrizione {
+    font-size: 1rem;
+    padding: 50px 40px;
+    text-align: start;
+    background-color: white;
+    color: black;
+  }
+
+  .ricettaSelezionata-ingredienti {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8b916d;
+    color: aliceblue;
+  }
+
+  .ricettaSelezionata-ingredienti h2 {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    align-self: flex-start;
+  }
+
+  .ingredienti-ricetta {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 10px;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+  }
+
+  .ingrediente {
+    margin-left: 10px;
+    margin-bottom: 0px !important;
+  }
+
+  .ingrediente-contenitore {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ricettaSelezionata-procedimento {
+    font-size: 1rem;
+    padding: 0 40px;
+    margin-bottom: 100px;
+  }
+
+  .ricettaSelezionata-procedimento li {
+    margin-bottom: 19px;
+    line-height: 1.6;
+    padding-left: 7px;
+    font-size: 1rem;
+  }
+
+  .ricettaSelezionata-procedimento li::marker {
+    font-weight: bold;
+    color: #d2691e;
+    font-size: 1.3rem;
+  }
+
+  .ricettaSelezionata-procedimento h2 {
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: #bb6647;
+  }
+}
+
+@media only screen and (min-width: 427px) and (max-width: 1441px) {
+  .ricettaSelezionata {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ricettaSelezionata-img {
+    width: 100%;
+    height: 525px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(65%);
+  }
+
+  .titolo-ricetta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .dettagli {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 40px;
+  }
+
+  .dettagli p {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0 !important;
+  }
+
+  .immagine-titolo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .ricettaSelezionata-descrizione {
+    font-size: 1.3rem;
+    padding: 80px 40px;
+    text-align: start;
+    background-color: white;
+    color: black;
+  }
+
+  .ricettaSelezionata-ingredienti {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8b916d;
+    color: aliceblue;
+  }
+
+  .ricettaSelezionata-ingredienti h2 {
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    align-self: flex-start;
+  }
+
+  .ingredienti-ricetta {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 10px;
+    margin-left: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+  }
+
+  .ingrediente {
+    margin-left: 10px;
+    margin-bottom: 0px !important;
+  }
+
+  .ingrediente-contenitore {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ricettaSelezionata-procedimento {
+    font-size: 1rem;
+    padding: 0 40px;
+    margin-bottom: 100px;
+  }
+
+  .ricettaSelezionata-procedimento li {
+    margin-bottom: 19px;
+    line-height: 1.6;
+    padding-left: 7px;
+    font-size: 1.2rem;
+  }
+
+  .ricettaSelezionata-procedimento li::marker {
+    font-weight: bold;
+    color: #d2691e;
+    font-size: 1.5rem;
+  }
+
+  .ricettaSelezionata-procedimento h2 {
+    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: #bb6647;
+  }
+}
+
+@media (min-width: 1442px) {
+  .ricettaSelezionata {
+    margin-top: 230px;
+  }
+
+  .ricettaSelezionata {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ricettaSelezionata-img {
+    width: 100%;
+    height: 1090px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(65%);
+  }
+
+  .titolo-ricetta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  .dettagli {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 90px;
+  }
+
+  .dettagli p {
+    font-size: 2.5rem;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0 !important;
+  }
+
+  .immagine-titolo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .ricettaSelezionata-descrizione {
+    font-size: 2.5rem;
+    padding: 200px 100px;
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+
+  .ricettaSelezionata-ingredienti {
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 2.2rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ricettaSelezionata-ingredienti h2 {
+    color: #bb6647;
+    font-size: 4rem;
+    margin-bottom: 60px;
+  }
+
+  .ingredienti-ricetta {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    width: 4000px;
+    padding: 130px 0;
+  }
+
+  .ingrediente {
+    margin-left: 10px;
+    margin-bottom: 0px !important;
+  }
+
+  .ingrediente-contenitore {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ricettaSelezionata-procedimento h2 {
+    text-align: start;
+    margin-bottom: 90px;
+    margin-top: 100px;
+    color: #bb6647;
+    font-size: 4rem;
+  }
+
+  .checkbox-ingredenti {
+    zoom: 2;
+  }
+
+  .ricettaSelezionata-procedimento {
+    font-size: 2rem;
+    padding: 0 100px;
+    margin-bottom: 100px;
+  }
+
+  .ricettaSelezionata-procedimento li {
+    margin-bottom: 19px;
+    line-height: 1.6;
+    padding-left: 30px;
+    font-size: 2rem;
+  }
+
+  .ricettaSelezionata-procedimento li::marker {
+    font-weight: bold;
+    color: #d2691e;
+    font-size: 3rem;
+  }
+}

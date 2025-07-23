@@ -6,6 +6,7 @@ import { ElencoRicetteContext } from "../stores/ElencoRicetteContext";
 import { BASE_URL } from "../api/spoonacular";
 import { API_KEY } from "../api/spoonacular";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export const ElencoRicette = () => {
   const { ricette, setRicette } = useContext(ElencoRicetteContext);
@@ -16,7 +17,7 @@ export const ElencoRicette = () => {
         params: {
           tags: "vegetarian",
           addRecipeInformation: true,
-          number: 9  ,
+          number: 9,
           apiKey: API_KEY,
         },
       })
@@ -34,15 +35,16 @@ export const ElencoRicette = () => {
     <>
       <div className="elenco-ricette">
         {ricette?.map((ricetta) => (
-          <RicettaID
-            key={ricetta.id}
-            ricettaIMG={ricetta.image}
-            nome={ricetta.title}
-            piatto={ricetta.dishTypes?.[0] || "Piatto"}
-            ingredientePrincipale={
-              ricetta.extendedIngredients?.[0]?.name || "Ingrediente"
-            }
-          />
+          <Link to={`/${ricetta.id}`} key={ricetta.id} className="link-ricetta">
+            <RicettaID
+              ricettaIMG={ricetta.image}
+              nome={ricetta.title}
+              piatto={ricetta.dishTypes?.[0] || "Piatto"}
+              ingredientePrincipale={
+                ricetta.extendedIngredients?.[0]?.name || "Ingrediente"
+              }
+            />
+          </Link>
         ))}
       </div>
     </>

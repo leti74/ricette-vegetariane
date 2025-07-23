@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer } from "../components/Footer";
 import { ElencoRicette } from "../components/ElencoRicette";
 import { Link } from "react-router-dom";
-import { ElencoRicetteProvider } from "../stores/ElencoRicetteContext";
+
 import ScrollToTop from "../components/ScrollToTop";
 
 function App() {
@@ -58,9 +58,8 @@ function App() {
           facili e veloci
         </h3>
         <p>Lasciati ispirare</p>
-        <ElencoRicetteProvider>
-          <ElencoRicette></ElencoRicette>
-        </ElencoRicetteProvider>
+
+        <ElencoRicette></ElencoRicette>
       </div>
 
       <div className="home4">
