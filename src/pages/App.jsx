@@ -14,10 +14,7 @@ function App() {
 
       <div className="sfondo"></div>
       <div className="home1">
-        <img
-          src="public/ricette-vegetali.jpg"
-          alt="immagine cucina vegetariana"
-        />
+        <img src="/ricette-vegetali.jpg" alt="immagine cucina vegetariana" />
 
         <div className="slogan">
           <h1>
