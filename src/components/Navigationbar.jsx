@@ -21,15 +21,15 @@ export const Navigationbar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="navbar-navs">
               <Link to={"/"}>Home</Link>
-              <Link to={"/perche"}>Perchè</Link>
-              <Link to={"/perIngrediente"}>Per Ingrediente</Link>
+              <Link to={"/perche"}>Why</Link>
+              <Link to={"/perIngrediente"}>By Ingredient</Link>
               <Link to={"/cerca"}>
                 <img
                   className="search-icon-navbar"
                   src={search}
                   alt="icona di ricerca"
                 />
-                <span className="search-span">Cerca ricette</span>
+                <span className="search-span">Search Recipes</span>
               </Link>
             </Nav>
           </Navbar.Collapse>

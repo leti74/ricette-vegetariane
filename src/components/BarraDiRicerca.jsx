@@ -60,7 +60,7 @@ export const BarraDiRicerca = ({
             }}
           />
           <button onClick={handleclickCerca} className="btn-invia">
-            invia
+            Send
           </button>
         </div>
       </div>

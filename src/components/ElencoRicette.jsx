@@ -34,16 +34,16 @@ export const ElencoRicette = () => {
   return (
     <div className="elenco-ricette">
       {ricette?.length === 0 ? (
-        <p className="messaggio-nessuna-ricetta">Nessuna ricetta trovata 🍽️</p>
+        <p className="messaggio-nessuna-ricetta">No recipes found 🍽️</p>
       ) : (
         ricette?.map((ricetta) => (
           <Link to={`/${ricetta.id}`} key={ricetta.id} className="link-ricetta">
             <RicettaID
               ricettaIMG={ricetta.image}
               nome={ricetta.title}
-              piatto={ricetta.dishTypes?.[0] || "Piatto"}
+              piatto={ricetta.dishTypes?.[0] || "Dish"}
               ingredientePrincipale={
-                ricetta.extendedIngredients?.[0]?.name || "Ricetta"
+                ricetta.extendedIngredients?.[0]?.name || "Recipes"
               }
             />
           </Link>
