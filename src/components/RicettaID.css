@@ -6,6 +6,7 @@
     flex: 0 0 100%;
     background-color: #f5eee4;
     width: 100%;
+    padding-bottom: 30px;
   }
 
   .img-contenitore img {
@@ -25,6 +26,7 @@
     overflow-wrap: break-word;
     white-space: normal;
     max-width: 95%;
+    padding-top: 20px;
   }
 
   .div-categorie {

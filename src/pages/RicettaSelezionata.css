@@ -82,6 +82,7 @@
   .ingrediente {
     margin-left: 10px;
     margin-bottom: 0px !important;
+    text-align: start;
   }
 
   .ingrediente-contenitore {
@@ -149,7 +150,7 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding: 40px;
+    padding: 80px 75px;
   }
 
   .dettagli p {
@@ -167,29 +168,26 @@
   }
 
   .ricettaSelezionata-descrizione {
-    font-size: 1.3rem;
-    padding: 80px 40px;
+    font-size: 1.2rem;
+    padding: 90px 70px;
     text-align: start;
-    background-color: white;
+    background-color: #ffffff;
     color: black;
+    border-radius: 20px;
+    width: 50%;
   }
 
   .ricettaSelezionata-ingredienti {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     display: flex;
-    flex-direction: column-reverse;
-    margin-top: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #8b916d;
+    flex-direction: row;
+    justify-content: space-around;
     color: aliceblue;
+    padding: 0 40px;
   }
 
   .ricettaSelezionata-ingredienti h2 {
     color: white;
-    padding-top: 50px;
     padding-bottom: 20px;
     align-self: flex-start;
   }
@@ -197,16 +195,19 @@
   .ingredienti-ricetta {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
+    align-self: center;
     gap: 10px;
-    margin-left: 40px;
+    background-color: #8b916d;
+    border-radius: 20px;
+    padding: 60px;
     flex-wrap: wrap;
-    margin-bottom: 90px;
+    width: 40%;
   }
 
   .ingrediente {
     margin-left: 10px;
     margin-bottom: 0px !important;
+    text-align: start;
   }
 
   .ingrediente-contenitore {
@@ -216,7 +217,7 @@
 
   .ricettaSelezionata-procedimento {
     font-size: 1rem;
-    padding: 0 40px;
+    padding: 0 60px;
     margin-bottom: 100px;
   }
 
@@ -278,7 +279,7 @@
     display: flex;
     flex-direction: row;
     gap: 30px;
-    padding: 90px;
+    padding: 170px;
   }
 
   .dettagli p {
@@ -298,11 +299,16 @@
 
   .ricettaSelezionata-descrizione {
     font-size: 2.5rem;
-    padding: 200px 100px;
     text-align: center;
     background-color: white;
+    margin-right: 130px;
     border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
     border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
   }
 
   .ricettaSelezionata-ingredienti {
@@ -311,6 +317,7 @@
     font-size: 2.2rem;
     display: flex;
     flex-direction: row;
+    margin-bottom: 150px;
   }
 
   .ricettaSelezionata-ingredienti h2 {
@@ -325,12 +332,14 @@
     align-items: start;
     gap: 15px;
     width: 4000px;
-    padding: 130px 0;
+    padding: 130px 70px;
   }
 
   .ingrediente {
-    margin-left: 10px;
+    margin-left: 28px;
     margin-bottom: 0px !important;
+    margin-right: 40px;
+    text-align: start;
   }
 
   .ingrediente-contenitore {
@@ -340,8 +349,8 @@
 
   .ricettaSelezionata-procedimento h2 {
     text-align: start;
-    margin-bottom: 90px;
-    margin-top: 100px;
+    margin-bottom: 185px;
+    margin-top: 50px;
     color: #bb6647;
     font-size: 4rem;
   }
@@ -352,20 +361,23 @@
 
   .ricettaSelezionata-procedimento {
     font-size: 2rem;
-    padding: 0 100px;
-    margin-bottom: 100px;
+    padding: 0 170px;
+    margin-bottom: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .ricettaSelezionata-procedimento li {
     margin-bottom: 19px;
     line-height: 1.6;
-    padding-left: 30px;
+    padding: 0 100px 0 25px;
     font-size: 2rem;
   }
 
   .ricettaSelezionata-procedimento li::marker {
     font-weight: bold;
     color: #d2691e;
-    font-size: 3rem;
+    font-size: 2.7rem;
   }
 }

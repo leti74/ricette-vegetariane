@@ -1,6 +1,7 @@
 import { BarraDiRicerca } from "../components/BarraDiRicerca";
 import { Navigationbar } from "../components/Navigationbar";
 import { ElencoRicette } from "../components/ElencoRicette";
+import { Footer } from "../components/Footer";
 
 export const RicettePerIngrediente = () => {
   const handleclickCerca = () => {};
@@ -17,6 +18,7 @@ export const RicettePerIngrediente = () => {
       <div className="elenco-ricette">
         <ElencoRicette></ElencoRicette>
       </div>
+      <Footer></Footer>
     </>
   );
 };

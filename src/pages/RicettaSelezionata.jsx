@@ -15,6 +15,10 @@ export const RicettaSelezionata = () => {
     return ricetta.id == ricettaID.toString();
   });
 
+  if (!ricetta[0]) {
+    return <p>Caricamento ricetta...</p>;
+  }
+
   function stripHTML(html) {
     const tempDiv = document.createElement("div");
     tempDiv.innerHTML = html;
@@ -44,9 +48,12 @@ export const RicettaSelezionata = () => {
         <div className="ricettaSelezionata-ingredienti">
           <div className="ingredienti-ricetta">
             <h2>Ingredienti</h2>
-            {ricetta[0].extendedIngredients.map((ingrediente) => {
+            {ricetta[0].extendedIngredients.map((ingrediente, i) => {
               return (
-                <div className="ingrediente-contenitore">
+                <div
+                  key={i + ingrediente.id}
+                  className="ingrediente-contenitore"
+                >
                   <input type="checkbox" className="checkbox-ingredenti" />
                   <p className="ingrediente">
                     {ingrediente.amount} {ingrediente.unit} {ingrediente.name}{" "}

@@ -5,19 +5,25 @@ import { BASE_URL } from "../api/spoonacular";
 import { API_KEY } from "../api/spoonacular";
 import { useContext } from "react";
 import { ElencoRicetteContext } from "../stores/ElencoRicetteContext";
+import { useLocation } from "react-router-dom";
 
 export const BarraDiRicerca = ({
   titoloBarraDiRicerca,
   placeholderBarraDiRicerca,
 }) => {
+  const location = useLocation();
   const [inputValue, setInputValue] = useState("");
   const { setRicette } = useContext(ElencoRicetteContext);
 
   const handleclickCerca = () => {
+    const perIngrediente = location.pathname.includes("/perIngrediente");
+
     axios
       .get(`${BASE_URL}/complexSearch`, {
         params: {
-          query: inputValue,
+          ...(perIngrediente
+            ? { includeIngredients: inputValue }
+            : { query: inputValue }),
           apiKey: API_KEY,
           tags: "vegetarian",
           addRecipeInformation: true,
@@ -47,6 +53,11 @@ export const BarraDiRicerca = ({
             type="text"
             placeholder={placeholderBarraDiRicerca}
             onChange={handleInputChange}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                handleclickCerca();
+              }
+            }}
           />
           <button onClick={handleclickCerca} className="btn-invia">
             invia
