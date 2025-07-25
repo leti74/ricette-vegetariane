@@ -7,7 +7,7 @@ export const Perche = () => {
     <>
       <Navigationbar></Navigationbar>
       <PercheVeg
-        percheIMG="public/allevamenti.jpg"
+        percheIMG="allevamenti.jpg"
         percheTitolo1="Perché gli animali meritano equità."
         percheTesto="Spesso distinguiamo tra “animali da compagnia” e“animali da allevamento”, ma
             questa divisione è artificiale. Un maiale può essere affettuoso
