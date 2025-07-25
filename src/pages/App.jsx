@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer } from "../components/Footer";
 import { ElencoRicette } from "../components/ElencoRicette";
 import { Link } from "react-router-dom";
-
 import ScrollToTop from "../components/ScrollToTop";
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
       <div className="sfondo"></div>
       <div className="home1">
         <img
-          src="./assets/img/cucina-vegetale.avif"
+          src="public/ricette-vegetali.jpg"
           alt="immagine cucina vegetariana"
         />
 

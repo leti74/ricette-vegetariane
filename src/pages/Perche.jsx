@@ -7,7 +7,7 @@ export const Perche = () => {
     <>
       <Navigationbar></Navigationbar>
       <PercheVeg
-        percheIMG="https://images.unsplash.com/photo-1546106705-b84c814cffde?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        percheIMG="public/allevamenti.jpg"
         percheTitolo1="Perché gli animali meritano equità."
         percheTesto="Spesso distinguiamo tra “animali da compagnia” e“animali da allevamento”, ma
             questa divisione è artificiale. Un maiale può essere affettuoso
@@ -45,7 +45,7 @@ export const Perche = () => {
       ></PercheVeg>
 
       <PercheVeg
-        percheIMG="https://plus.unsplash.com/premium_photo-1664526284238-afa02646da87?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        percheIMG="public/ambiente.jpg"
         percheTitolo1="Perché è il nostro pianeta e la nostra responsabilità"
         percheTesto="La Terra è l’unica casa che abbiamo, e custodirla è una scelta che va ben oltre il nostro presente: significa proteggere ogni essere vivente che la abita. E se da piccoli ci insegnano a spegnere le luci o a non sprecare l’acqua, nessuno ci spiega che il gesto più potente lo compiamo ogni giorno: scegliendo cosa mangiare."
         percheTitolo2="L'impatto enorme sul pianeta."
@@ -55,7 +55,7 @@ export const Perche = () => {
       ></PercheVeg>
 
       <PercheVeg
-        percheIMG="https://images.unsplash.com/photo-1690149920380-a6e6692604c3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        percheIMG="public/benessere.jpg"
         percheTitolo1="Perché la nostra salute dipende dal cibo e dall'ambiente in cui viviamo."
         percheTesto="Seguire un’alimentazione vegetale rappresenta una strategia nutrizionale consigliata in tutte le fasi della vita. Le ricerche scientifiche più recenti confermano che un regime a base vegetale può offrire numerosi vantaggi per la salute generale, se ben bilanciato e pianificato. Numerosi professionisti in ambito medico e nutrizionale affermano che le diete vegane e vegetariane correttamente strutturate sono perfettamente adeguate da un punto di vista nutrizionale e possono contribuire positivamente alla prevenzione e gestione di molte malattie croniche."
         percheTitolo2="Il potere di una dieta vegetale."
