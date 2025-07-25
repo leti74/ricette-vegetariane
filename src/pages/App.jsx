@@ -16,7 +16,7 @@ function App() {
       <div className="sfondo"></div>
       <div className="home1">
         <img
-          src="/public/calum-lewis-vA1L1jRTM70-unsplash.jpg"
+          src="./assets/img/cucina-vegetale.avif"
           alt="immagine cucina vegetariana"
         />
 

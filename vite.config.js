@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/ricette-vegetariane/", // 👈 questo è fondamentale!
+  base: "/ricette-vegetariane/",
 });
