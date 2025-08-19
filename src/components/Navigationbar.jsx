@@ -15,7 +15,7 @@ export const Navigationbar = () => {
         <Container fluid className="sezioni">
           <Link to={"/"} className="sezione-logo">
             <img src={logo} alt="logo" className="logo" />
-            <span className="span-logo">VegFacile</span>
+            <span className="span-logo">EasyVeg</span>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -11,8 +11,8 @@ export const RicettePerIngrediente = () => {
 
       <BarraDiRicerca
         handleclickCerca={handleclickCerca}
-        titoloBarraDiRicerca={"Cerca per Ingrediente"}
-        placeholderBarraDiRicerca={"Inserisci Ingrediente"}
+        titoloBarraDiRicerca={"By Ingredient"}
+        placeholderBarraDiRicerca={"Enter Ingredient"}
       ></BarraDiRicerca>
 
       <div className="elenco-ricette">

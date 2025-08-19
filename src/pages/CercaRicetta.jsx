@@ -13,8 +13,8 @@ export const CercaRicetta = () => {
       <DropdownFiltro classeDropdown="Ricette" />
 
       <BarraDiRicerca
-        titoloBarraDiRicerca={"Ricette"}
-        placeholderBarraDiRicerca={"Cerca fra le ricette"}
+        titoloBarraDiRicerca={"Recipe"}
+        placeholderBarraDiRicerca={"Search among the recipes"}
       />
 
       <div className="elenco-ricette">

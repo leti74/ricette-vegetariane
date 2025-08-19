@@ -13,12 +13,6 @@ export const ElencoRicetteProvider = ({ children }) => {
     }
   }, []);
 
-  useEffect(() => {
-    if (ricette.length > 0) {
-      localStorage.setItem("ricette", JSON.stringify(ricette));
-    }
-  }, [ricette]);
-
   return (
     <ElencoRicetteContext.Provider value={{ ricette, setRicette }}>
       {children}

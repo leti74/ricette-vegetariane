@@ -25,8 +25,11 @@ export const BarraDiRicerca = ({
             ? { includeIngredients: inputValue }
             : { query: inputValue }),
           apiKey: API_KEY,
+          fillIngredients: true,
+          instructionsRequired: true,
           tags: "vegetarian",
           addRecipeInformation: true,
+          number: 2,
         },
       })
       .then((risposta) => {

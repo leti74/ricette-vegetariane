@@ -17,12 +17,13 @@ export const ElencoRicette = () => {
         params: {
           tags: "vegetarian",
           addRecipeInformation: true,
-          number: 9,
+          number: 2,
           apiKey: API_KEY,
         },
       })
       .then((ricetteCasuali) => {
         const risposta = ricetteCasuali.data.recipes;
+        console.log(risposta);
         setRicette(risposta);
       })
       .catch((error) => {
@@ -43,7 +44,10 @@ export const ElencoRicette = () => {
               nome={ricetta.title}
               piatto={ricetta.dishTypes?.[0] || "Dish"}
               ingredientePrincipale={
-                ricetta.extendedIngredients?.[0]?.name || "Recipes"
+                Array.isArray(ricetta.extendedIngredients) &&
+                ricetta.extendedIngredients.length > 0
+                  ? ricetta.extendedIngredients[0].name
+                  : "Ingrediente non disponibile"
               }
             />
           </Link>

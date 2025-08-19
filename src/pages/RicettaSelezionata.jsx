@@ -7,17 +7,12 @@ import { Footer } from "../components/Footer";
 
 export const RicettaSelezionata = () => {
   const { ricette } = useContext(ElencoRicetteContext);
-
   const { ricettaID } = useParams();
   console.log(ricettaID);
 
-  const ricetta = ricette.filter((ricetta) => {
-    return ricetta.id == ricettaID.toString();
-  });
+  const ricetta = ricette?.find((r) => r.id == ricettaID.toString());
 
-  if (!ricetta[0]) {
-    return <p>Caricamento ricetta...</p>;
-  }
+  console.log(ricetta);
 
   function stripHTML(html) {
     const tempDiv = document.createElement("div");
@@ -25,58 +20,63 @@ export const RicettaSelezionata = () => {
     return tempDiv.textContent || "";
   }
 
-  console.log(ricetta[0]);
+  if (!ricetta) {
+    return <p>Recipe not found</p>;
+  }
+
   return (
     <>
-      <Navigationbar></Navigationbar>
+      <Navigationbar />
       <div className="ricettaSelezionata">
         <div className="immagine-titolo">
-          <img className="ricettaSelezionata-img" src={ricetta[0].image} />
-          <h1 className="titolo-ricetta">{ricetta[0].title}</h1>
+          <img
+            className="ricettaSelezionata-img"
+            src={ricetta.image}
+            alt="img recipies"
+          />
+          <h1 className="titolo-ricetta">{ricetta.title}</h1>
         </div>
 
         <div className="dettagli">
           <button className="bt-categoria">
-            {ricetta[0].dishTypes?.[0] || "Ricetta"}
+            {ricetta.dishTypes?.[0] || "Ricetta"}
           </button>
-          <p>Main ingredient: {ricetta[0].extendedIngredients?.[0]?.name}</p>
-
-          <p> Tempo: {ricetta[0].readyInMinutes} MIN.</p>
-          <p>Porzioni: {ricetta[0].servings}</p>
+          <p>Main ingredient: {ricetta.extendedIngredients?.[0]?.name}</p>
+          <p>Tempo: {ricetta.readyInMinutes} MIN.</p>
+          <p>Porzioni: {ricetta.servings}</p>
         </div>
 
         <div className="ricettaSelezionata-ingredienti">
           <div className="ingredienti-ricetta">
             <h2>Ingredienti</h2>
-            {ricetta[0].extendedIngredients.map((ingrediente, i) => {
-              return (
+            {Array.isArray(ricetta.extendedIngredients) &&
+              ricetta.extendedIngredients.map((ingrediente, i) => (
                 <div
                   key={i + ingrediente.id}
                   className="ingrediente-contenitore"
                 >
                   <input type="checkbox" className="checkbox-ingredenti" />
                   <p className="ingrediente">
-                    {ingrediente.amount} {ingrediente.unit} {ingrediente.name}{" "}
+                    {ingrediente.amount} {ingrediente.unit} {ingrediente.name}
                   </p>
                 </div>
-              );
-            })}
+              ))}
           </div>
           <div className="ricettaSelezionata-descrizione">
-            <p>{stripHTML(ricetta[0].summary)}</p>
+            <p>{stripHTML(ricetta.summary)}</p>
           </div>
         </div>
 
         <div className="ricettaSelezionata-procedimento">
           <h2>Procedimento</h2>
           <ol>
-            {ricetta[0].analyzedInstructions[0].steps.map((s, i) => (
+            {ricetta.analyzedInstructions?.[0]?.steps?.map((s, i) => (
               <li key={i}>{s.step}</li>
-            ))}
+            )) || "Nessun Procedimento"}
           </ol>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
   );
 };

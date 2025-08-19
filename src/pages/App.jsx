@@ -14,18 +14,18 @@ function App() {
 
       <div className="sfondo"></div>
       <div className="home1">
-        <img src="ricette-vegetali.jpg" alt="immagine cucina vegetariana" />
+        <img src="ricette-vegetali.jpg" alt="img vegetarian cuisine" />
 
         <div className="slogan">
           <h1>
-            TRASFORMA IL MONDO,
+            TRANSFORM THE WORLD,
             <br></br>
-            UN INGREDIENTE ALLA VOLTA.
+            ONE INGREDIENT AT A TIME.
           </h1>
 
           <div className="slogan-p">
             <p>
-              Scegli il benessere, scopri il gusto di uno stile di vita veg.
+              Choose wellness and discover the taste of a vegan lifestyle.
               <br></br>
               Ricette, ispirazione, consapevolezza: tutto in un solo posto.
             </p>
@@ -34,38 +34,37 @@ function App() {
       </div>
 
       <div className="home2">
-        <h2>
-          Sostieni uno stile di vita <span className="grassetto"> sano</span> e
-          sostenibile
-        </h2>
+        <h2>Support a healthy and sustainable lifestyle</h2>
         <p>
-          Conoscere il cibo e saperlo preparare è fondamentale per prenderci
-          cura di noi stessi nel tempo. Per questo promuoviamo una
-          <span className="grassetto"> cucina vegetale</span>, scelta
-          consapevole che fa bene alla salute, nasce da una visione etica e
-          <span className="grassetto"> tutela l’ambiente in cui viviamo.</span>
+          Understanding food and knowing how to prepare it is essential to
+          taking care of ourselves over time. This is why we promote a{" "}
+          <span className="grassetto"> plant-based cuisine</span>, A conscious
+          choice that is good for your health, stems from an ethical vision, and
+          <span className="grassetto">
+            protects the environment we live in.
+          </span>
         </p>
       </div>
 
       <div className="home3">
         <h3>
-          Ricette vegetariane,
+          Vegetarian recipes,
           <br></br>
-          facili e veloci
+          easy and fast
         </h3>
-        <p>Lasciati ispirare</p>
+        <p>Get inspired</p>
 
         <ElencoRicette></ElencoRicette>
       </div>
 
       <div className="home4">
         <h3>
-          Uno spazio dove la cucina vegetale non è una rinuncia, ma un’avventura
-          di gusto e creatività che ogni giorno può fare la differenza.
+          A space where plant-based cuisine isn't a sacrifice, but an adventure
+          of flavor and creativity that can make a difference every day.
         </h3>
         <button className="bt-cerca">
           <Link to={"/cerca"} className="grassetto">
-            Cerca ricetta
+            Search for a recipe
           </Link>
         </button>
       </div>

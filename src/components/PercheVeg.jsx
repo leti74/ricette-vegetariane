@@ -11,11 +11,7 @@ export const PercheVeg = ({
     <>
       <div className="div1-perche">
         <div className="sfondo-img-perche">
-          <img
-            src={percheIMG}
-            alt="immagine contestuale"
-            className="img-div1"
-          />
+          <img src={percheIMG} alt="img" className="img-div1" />
         </div>
 
         <div className={`div1-testo ${percheStyle}`}>

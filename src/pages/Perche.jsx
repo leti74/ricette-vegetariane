@@ -7,61 +7,61 @@ export const Perche = () => {
     <>
       <Navigationbar></Navigationbar>
       <PercheVeg
-        percheIMG="allevamenti.jpg"
+        percheIMG="/ricette-vegetariane/allevamenti.jpg"
         percheTitolo1="Perché gli animali meritano equità."
-        percheTesto="Spesso distinguiamo tra “animali da compagnia” e“animali da allevamento”, ma
-            questa divisione è artificiale. Un maiale può essere affettuoso
-            quanto un cane, e una mucca può legarsi profondamente al proprio
-            piccolo. Solo alcuni animali ricevono amore, mentre altri vengono
-            sfruttati. Cambiare prospettiva significa riconoscere che tutti gli
-            animali sentono, soffrono, desiderano vivere
-            . Con una dieta vegetale, possiamo contribuire a salvare centinaia
-            di vite ogni ann, è un gesto potente, che parte da una semplice
-            scelta."
-        percheTitolo2="Il vero costo della
-              carne."
-        percheParagrafo=" Nel solo territorio italiano, centinaia di milioni di animali vengono allevati e uccisi ogni anno per diventare cibo. Dietro
-              alle confezioni sugli scaffali, ci sono storie di polli cresciuti
-              in meno di due mesi, di conigli uccisi a tre mesi, e di mucche che
-              non vivono neanche un quarto del tempo che la
-              natura concederebbe loro . I luoghi in cui vengono allevati sono
-              spesso affollati, privi di stimoli e pieni di sofferenza
-              invisibile. In quelle strutture, il tempo non passa: si
-              sopravvive, in attesa del giorno in cui tutto finirà. Per
-              prevenire comportamenti “pericolosi” causati dallo stress del
-              sovraffollamento, gli animali vengono mutilati: becchi, code, corna.
-              I maialini sono castrati senza anestesia. Questi interventi
-              avvengono su esseri senzienti, che provano dolore. In gabbie
-              strette, recinti spogli o capannoni, gli animali non possono
-              esprimere i loro comportamenti naturali. Vivono privati di tutto
-              ciò che renderebbe la loro vita degna di essere vissuta. I pesci
-              sono spesso i grandi dimenticati. Nonostante provino dolore,
-              vengono allevati in condizioni densamente sovraffollate, immersi
-              in acque inquinate o stagnanti. Spesso non c'è alcuna
-              regolamentazione sulla loro macellazione: vengono lasciati morire
-              lentamente, fuori dall'acqua, in modo che non soffochino le nostre
-              coscienze. Eppure, anche loro lottano per la vita."
+        percheTesto="We often distinguish between companions and farm animals, but
+        this division is artificial. A pig can be as affectionate
+        as a dog, and a cow can bond deeply with its
+        baby. Only some animals receive love, while others are
+        exploited. Changing perspective means recognizing that all
+        animals feel, suffer, and desire to live.
+        With a plant-based diet, we can help save hundreds
+        of lives every year. It's a powerful gesture that starts with a simple
+        choice."
+        percheTitolo2="The true cost of
+        meat."
+        percheParagrafo="In Italy alone, hundreds of millions of animals are raised and killed every year for food. Behind the
+        packaging on the shelves, there are stories of chickens grown
+        in less than two months, rabbits killed at three months, and cows that
+        don't even live a quarter of the time that
+        nature would allow them. The places where they are raised are
+        often crowded, devoid of stimulation, and full of invisible
+        suffering. In those facilities, time stands still: they
+        survive, waiting for the day when it will all end. To
+        prevent dangerous behaviors caused by the stress of
+        overcrowding, the animals are mutilated: beaks, tails, horns.
+        Pigs are castrated without anesthesia. These procedures
+        are performed on sentient beings, who feel pain. In narrow
+        cages, bare pens, or sheds, the animals cannot
+        express their natural behaviors. They live deprived of everything
+        that would make their lives worth living. Fish
+        are often the great forgotten ones. Despite feeling pain,
+        they are raised in densely overcrowded conditions, immersed
+        in polluted or stagnant water. Often, there are no
+        regulations regarding their slaughter: they are left to die
+        slowly, out of the water, so as not to drown our
+        consciences. Yet, they too fight for life."
         percheStyle="tema-animali"
       ></PercheVeg>
 
       <PercheVeg
-        percheIMG="ambiente.jpg"
-        percheTitolo1="Perché è il nostro pianeta e la nostra responsabilità"
-        percheTesto="La Terra è l’unica casa che abbiamo, e custodirla è una scelta che va ben oltre il nostro presente: significa proteggere ogni essere vivente che la abita. E se da piccoli ci insegnano a spegnere le luci o a non sprecare l’acqua, nessuno ci spiega che il gesto più potente lo compiamo ogni giorno: scegliendo cosa mangiare."
-        percheTitolo2="L'impatto enorme sul pianeta."
-        percheParagrafo="Immagina milioni di animali trasformare ogni giorno mangimi vegetali in carne, latte o uova. Sembra semplice, ma è una delle “conversioni energetiche” più inefficienti esistenti: usiamo enormi quantità di cereali e legumi per nutrire animali invece di destinarli direttamente alle persone. A livello globale, la maggior parte della soia coltivata finisce nei mangimi, e solo una piccolissima parte arriva sulle nostre tavole. Una dieta vegetale, al contrario, utilizza meno risorse e contribuisce a un uso più equo del cibo sulla Terra. Quando parliamo di cambiamento climatico, pensiamo a fabbriche e automobili. Ma c’è un’altra fonte, più silenziosa ma ancora più impattante: gli allevamenti. Le emissioni di metano e protossido di azoto da parte degli animali sono tra le più pericolose per il riscaldamento globale.
-        Ci dicono di chiudere il rubinetto mentre ci laviamo i denti per risparmiare acqua—un gesto utile, ma poco incisivo se paragonato alla quantità d’acqua necessaria a produrre carne e derivati animali. Ogni hamburger richiede migliaia di litri d’acqua, non solo per l’animale stesso ma per coltivare il suo cibo e gestire i rifiuti che produce. Spostare le nostre scelte verso un’alimentazione vegetale significa ridurre in modo concreto il nostro impatto idrico, ogni giorno."
+        percheIMG="/ricette-vegetariane/ambiente.jpg"
+        percheTitolo1="Because it's our planet and our responsibility"
+        percheTesto="The Earth is our only home, and caring for it is a choice that goes far beyond our present: it means protecting every living being that inhabits it. And while we're taught as children to turn off the lights or not waste water, no one explains to us that the most powerful gesture we make every day: choosing what to eat."
+        percheTitolo2="The enormous impact on the planet."
+        percheParagrafo="Imagine millions of animals turning plant-based feed into meat, milk, or eggs every day. It seems simple, but it's one of the most inefficient energy conversions in existence: we use enormous quantities of grains and legumes to feed animals instead of directly feeding them to people. Globally, most of the soy grown ends up in animal feed, and only a tiny fraction reaches our tables. A plant-based diet, by contrast, uses fewer resources and contributes to a more equitable use of food on Earth. When we talk about climate change, we think of factories and cars. But there's another source, quieter but even more impactful: livestock farming. Methane and nitrous oxide emissions from animals are among the most dangerous for global warming.
+        We're told to turn off the faucet while brushing our teeth to save water—a helpful gesture, but insignificant compared to the amount of water needed to produce meat and animal products. Each hamburger requires thousands of liters of water, not only for the animal itself but also to grow its food and manage the waste it produces. Shifting our choices towards a plant-based diet means concretely reducing our water impact, every day."
         percheStyle="tema-pianeta"
       ></PercheVeg>
 
       <PercheVeg
-        percheIMG="benessere.jpg"
-        percheTitolo1="Perché la nostra salute dipende dal cibo e dall'ambiente in cui viviamo."
-        percheTesto="Seguire un’alimentazione vegetale rappresenta una strategia nutrizionale consigliata in tutte le fasi della vita. Le ricerche scientifiche più recenti confermano che un regime a base vegetale può offrire numerosi vantaggi per la salute generale, se ben bilanciato e pianificato. Numerosi professionisti in ambito medico e nutrizionale affermano che le diete vegane e vegetariane correttamente strutturate sono perfettamente adeguate da un punto di vista nutrizionale e possono contribuire positivamente alla prevenzione e gestione di molte malattie croniche."
-        percheTitolo2="Il potere di una dieta vegetale."
-        percheParagrafo="Le patologie cardiovascolari sono ancora oggi una delle principali cause di morte a livello globale. Uno stile di vita sano, che includa un’alimentazione ricca di cibi vegetali, può svolgere un ruolo cruciale nel ridurre i fattori di rischio come il colesterolo alto e la pressione sanguigna elevata.
-        Inoltre, il consumo regolare di frutta, verdura, cereali integrali, legumi e frutta secca è un'arma potente contro il diabete di tipo 2 e l’obesità, spesso aggravati da un eccessivo consumo di carne e zuccheri semplici. La zootecnia intensiva comporta effetti negativi non solo per gli animali, ma anche per l’uomo e l’ambiente. L’uso sistemico di antibiotici negli allevamenti contribuisce alla resistenza antimicrobica, mentre l’inquinamento prodotto dalle deiezioni animali e dalla deforestazione compromette la qualità dell’aria e dell’acqua.
-        Inoltre, la maggior parte delle malattie infettive emergenti ha origine da uno stretto contatto tra esseri umani e animali, spesso favorito dagli allevamenti intensivi e dalla distruzione degli habitat naturali. È proprio in questi contesti che i virus compiono il cosiddetto “salto di specie”, generando nuove zoonosi."
+        percheIMG="/ricette-vegetariane/benessere.jpg"
+        percheTitolo1="Because our health depends on the food we eat and the environment we live in."
+        percheTesto="Following a plant-based diet is a recommended nutritional strategy at all stages of life. The latest scientific research confirms that a plant-based diet can offer numerous benefits for overall health, if well-balanced and planned. Numerous medical and nutritional professionals affirm that properly structured vegan and vegetarian diets are perfectly nutritionally adequate and can positively contribute to the prevention and management of many chronic diseases."
+        percheTitolo2="The power of a plant-based diet."
+        percheParagrafo="Cardiovascular diseases remain a leading cause of death globally. A healthy lifestyle, including a diet rich in plant-based foods, can play a crucial role in reducing risk factors such as high cholesterol and high blood pressure.
+        Furthermore, regular consumption of fruits, vegetables, whole grains, legumes, and nuts is a powerful weapon against type 2 diabetes and obesity, often aggravated by excessive consumption of meat and simple sugars. Intensive livestock farming has negative effects not only on animals, but also on humans and the environment. The systemic use of antibiotics in livestock farming contributes to antimicrobial resistance, while pollution from animal waste and deforestation compromises air and water quality.
+        Furthermore, most emerging infectious diseases originate from close contact between humans and animals, often facilitated by intensive livestock farming and the destruction of natural habitats. It is precisely in these contexts that viruses make the so-called species leap, generating new zoonoses."
         percheStyle="tema-salute"
       ></PercheVeg>
       <Footer></Footer>
