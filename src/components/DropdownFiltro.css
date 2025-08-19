@@ -39,7 +39,7 @@
   }
 }
 
-@media only screen and (min-width: 427px) and (max-width: 1441px) {
+@media only screen and (min-width: 427px) and (max-width: 1023px) {
   .filtro-dropdown .btn-primary {
     background-color: transparent !important;
     border: none;
@@ -79,14 +79,14 @@
   }
 }
 
-@media (min-width: 1442px) {
+@media (min-width: 1024px) {
   .filtro-dropdown .btn-primary {
     background-color: transparent !important;
     border: none;
     color: #563b30;
     border-radius: 40px;
     padding: 20px 35px;
-    font-size: 3.3rem;
+    font-size: 3rem;
   }
 
   .show {
@@ -98,7 +98,7 @@
   }
 
   .selectedItem {
-    font-size: 2.7rem;
+    font-size: 2rem;
     padding: 20px 170px 20px 60px;
   }
   .Ricette {

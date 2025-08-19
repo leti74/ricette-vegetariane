@@ -46,7 +46,7 @@
   }
 }
 
-@media only screen and (min-width: 427px) and (max-width: 1441px) {
+@media only screen and (min-width: 427px) and (max-width: 1023px) {
   .ricetta {
     display: flex;
     flex-direction: column;
@@ -107,7 +107,7 @@
   }
 }
 
-@media (min-width: 1442px) {
+@media (min-width: 1024px) {
   .ricetta {
     display: flex;
     flex-direction: column;
@@ -143,7 +143,7 @@
     color: #563b30;
     text-align: start;
     margin-left: 40px;
-    font-size: 2.9rem;
+    font-size: 2.5rem;
     word-wrap: break-word;
     overflow-wrap: break-word;
     white-space: normal;
@@ -164,6 +164,6 @@
     color: white;
     border-radius: 25px;
     padding: 5px 20px;
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 }

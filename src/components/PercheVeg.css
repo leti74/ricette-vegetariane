@@ -61,7 +61,7 @@
   }
 }
 
-@media only screen and (min-width: 427px) and (max-width: 1441px) {
+@media only screen and (min-width: 427px) and (max-width: 1023px) {
   .div1-perche {
     display: flex;
     flex-direction: column;
@@ -116,7 +116,7 @@
   }
 }
 
-@media (min-width: 1442px) {
+@media (min-width: 1024px) {
   .div1-perche {
     display: flex;
     flex-direction: row;
@@ -124,7 +124,7 @@
     align-items: center;
     gap: 50px;
     color: #ffffff;
-    margin: 300px 150px 100px;
+    margin: 300px 90px 90px;
   }
   .sfondo-img-perche {
     background-color: rgb(255, 255, 255);
@@ -143,7 +143,7 @@
   }
   .div1-testo {
     text-align: start;
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     padding: 50px;
     border-radius: 30px;
   }
@@ -151,13 +151,13 @@
   .div1-testo h2 {
     margin-bottom: 80px;
     color: white;
-    font-size: 5.5rem;
+    font-size: 3rem;
   }
 
   .div2-perche {
     background-color: white;
     padding: 100px 0px;
-    font-size: 2.6rem;
+    font-size: 2rem;
     margin: 100px 130px 190px;
     text-align: center;
     border-radius: 50px;
@@ -171,6 +171,7 @@
     color: #8b916d;
     margin-bottom: 80px;
     margin-top: 10px;
-    font-size: 4.9rem;
+    padding: 0 30px;
+    font-size: 3rem;
   }
 }

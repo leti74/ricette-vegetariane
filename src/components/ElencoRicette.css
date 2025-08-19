@@ -18,7 +18,7 @@
   }
 }
 
-@media only screen and (min-width: 427px) and (max-width: 1441px) {
+@media only screen and (min-width: 427px) and (max-width: 1023px) {
   .elenco-ricette {
     display: flex;
     flex-direction: row;
@@ -41,7 +41,7 @@
   }
 }
 
-@media (min-width: 1442px) {
+@media (min-width: 1024px) {
   .elenco-ricette {
     display: flex;
     flex-direction: row;
@@ -50,6 +50,7 @@
     flex-wrap: wrap;
     padding: 130px 20px 130px !important;
     justify-content: center;
+    margin-bottom: 200px;
   }
 
   .link-ricetta {

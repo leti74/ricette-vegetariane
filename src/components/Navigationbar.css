@@ -86,7 +86,7 @@
   }
 }
 
-@media only screen and (min-width: 961px) and (max-width: 1440px) {
+@media only screen and (min-width: 961px) and (max-width: 1023px) {
   .navbar {
     padding: 30px 10px !important;
   }
@@ -130,10 +130,10 @@
   }
 }
 
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1024px) {
   .navbar {
     padding: 50px 10px !important;
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 
   .logo {
@@ -142,7 +142,7 @@
   }
 
   .span-logo {
-    font-size: 3rem;
+    font-size: 2.9rem;
   }
 
   .search-icon-navbar {
@@ -167,6 +167,6 @@
   }
 
   .navbar-navs a {
-    margin-left: 130px;
+    margin-left: 60px;
   }
 }
