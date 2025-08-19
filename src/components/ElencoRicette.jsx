@@ -17,7 +17,7 @@ export const ElencoRicette = () => {
         params: {
           tags: "vegetarian",
           addRecipeInformation: true,
-          number: 2,
+          number: 8,
           apiKey: API_KEY,
         },
       })
