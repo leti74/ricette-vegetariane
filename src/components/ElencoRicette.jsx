@@ -1,5 +1,5 @@
 import { RicettaID } from "./RicettaID";
-import "./elencoRicette.css";
+import "./ElencoRicette.css";
 import { useEffect } from "react";
 import { useContext } from "react";
 import { ElencoRicetteContext } from "../stores/ElencoRicetteContext";
