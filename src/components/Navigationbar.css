@@ -132,21 +132,21 @@
 
 @media only screen and (min-width: 1024px) {
   .navbar {
-    padding: 50px 10px !important;
-    font-size: 2rem;
+    padding: 20px 10px !important;
+    font-size: 1.6rem;
   }
 
   .logo {
-    width: 40px;
+    width: 35px;
     margin-left: 40px;
   }
 
   .span-logo {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
 
   .search-icon-navbar {
-    width: 38px;
+    width: 24px;
     display: inline;
     margin-bottom: 4px;
     margin-right: 50px;

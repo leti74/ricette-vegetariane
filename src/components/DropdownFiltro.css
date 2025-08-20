@@ -86,7 +86,7 @@
     color: #563b30;
     border-radius: 40px;
     padding: 20px 35px;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .show {
@@ -98,7 +98,7 @@
   }
 
   .selectedItem {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 20px 170px 20px 60px;
   }
   .Ricette {

@@ -54,18 +54,18 @@
 
 @media only screen and (min-width: 1024px) {
   .footer {
-    padding: 90px 30px;
+    padding: 50px 30px;
     background-color: #8b916d;
     margin-bottom: 0px;
   }
 
   .footer-span-logo {
     color: white;
-    font-size: 2.6rem;
+    font-size: 2rem;
   }
 
   .logo-footer {
-    width: 50px;
+    width: 35px;
     margin-left: 40px;
   }
 }
