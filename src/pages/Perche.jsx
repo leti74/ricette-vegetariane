@@ -7,7 +7,7 @@ export const Perche = () => {
     <>
       <Navigationbar></Navigationbar>
       <PercheVeg
-        percheIMG="/ricette-vegetariane/allevamenti.jpg"
+        percheIMG="/allevamenti.jpg"
         percheTitolo1="Perché gli animali meritano equità."
         percheTesto="We often distinguish between companions and farm animals, but
         this division is artificial. A pig can be as affectionate
@@ -45,7 +45,7 @@ export const Perche = () => {
       ></PercheVeg>
 
       <PercheVeg
-        percheIMG="/ricette-vegetariane/ambiente.jpg"
+        percheIMG="/ambiente.jpg"
         percheTitolo1="Because it's our planet and our responsibility"
         percheTesto="The Earth is our only home, and caring for it is a choice that goes far beyond our present: it means protecting every living being that inhabits it. And while we're taught as children to turn off the lights or not waste water, no one explains to us that the most powerful gesture we make every day: choosing what to eat."
         percheTitolo2="The enormous impact on the planet."
@@ -55,7 +55,7 @@ export const Perche = () => {
       ></PercheVeg>
 
       <PercheVeg
-        percheIMG="/ricette-vegetariane/benessere.jpg"
+        percheIMG="/benessere.jpg"
         percheTitolo1="Because our health depends on the food we eat and the environment we live in."
         percheTesto="Following a plant-based diet is a recommended nutritional strategy at all stages of life. The latest scientific research confirms that a plant-based diet can offer numerous benefits for overall health, if well-balanced and planned. Numerous medical and nutritional professionals affirm that properly structured vegan and vegetarian diets are perfectly nutritionally adequate and can positively contribute to the prevention and management of many chronic diseases."
         percheTitolo2="The power of a plant-based diet."
