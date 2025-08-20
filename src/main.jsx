@@ -9,33 +9,28 @@ import { CercaRicetta } from "./pages/CercaRicetta.jsx";
 import { RicettaSelezionata } from "./pages/RicettaSelezionata.jsx";
 import { ElencoRicetteProvider } from "./stores/ElencoRicetteContext.jsx";
 
-const router = createBrowserRouter(
-  [
-    {
-      path: "/",
-      element: <App />,
-    },
-    {
-      path: "/perche",
-      element: <Perche />,
-    },
-    {
-      path: "/perIngrediente",
-      element: <RicettePerIngrediente />,
-    },
-    {
-      path: "/cerca",
-      element: <CercaRicetta />,
-    },
-    {
-      path: "/:ricettaID",
-      element: <RicettaSelezionata />,
-    },
-  ],
+const router = createBrowserRouter([
   {
-    basename: "/ricette-vegetariane/",
-  }
-);
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/perche",
+    element: <Perche />,
+  },
+  {
+    path: "/perIngrediente",
+    element: <RicettePerIngrediente />,
+  },
+  {
+    path: "/cerca",
+    element: <CercaRicetta />,
+  },
+  {
+    path: "/:ricettaID",
+    element: <RicettaSelezionata />,
+  },
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <ElencoRicetteProvider>
