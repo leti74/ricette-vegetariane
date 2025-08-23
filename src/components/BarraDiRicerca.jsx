@@ -29,7 +29,6 @@ export const BarraDiRicerca = ({
           instructionsRequired: true,
           tags: "vegetarian",
           addRecipeInformation: true,
-          number: 8,
         },
       })
       .then((risposta) => {

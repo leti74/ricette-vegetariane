@@ -61,11 +61,11 @@
 
   .footer-span-logo {
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .logo-footer {
-    width: 35px;
+    width: 30px;
     margin-left: 40px;
   }
 }

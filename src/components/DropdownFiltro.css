@@ -1,3 +1,8 @@
+.filtro-dropdown .dropdown-menu {
+  right: 0 !important;
+  left: auto !important;
+}
+
 @media only screen and (max-width: 426px) {
   .filtro-dropdown .btn-primary {
     background-color: transparent !important;
@@ -86,11 +91,11 @@
     color: #563b30;
     border-radius: 40px;
     padding: 20px 35px;
-    font-size: 2rem;
+    font-size: 1.5em;
   }
 
   .show {
-    border-radius: 30px;
+    border-radius: 10px;
   }
 
   .selectedItem:active {
@@ -98,14 +103,14 @@
   }
 
   .selectedItem {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 20px 170px 20px 60px;
   }
   .Ricette {
     position: absolute;
-    top: 250px;
+    top: 150px;
     display: flex;
     justify-content: flex-end;
-    right: 100px;
+    right: 90px;
   }
 }

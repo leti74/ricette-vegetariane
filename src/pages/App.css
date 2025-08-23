@@ -236,16 +236,16 @@
   .slogan {
     position: absolute;
     color: rgb(255, 255, 255);
-    top: 290px;
+    top: 230px;
     left: 0;
   }
 
   .slogan h1 {
     font-weight: 500;
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     color: rgb(255, 255, 255);
     width: 90%;
-    margin-left: 50px;
+    margin-left: 45px;
   }
 
   .slogan-p {
@@ -258,14 +258,14 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    height: 300px;
+    height: 250px;
   }
 
   .slogan p {
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 30px;
-    padding-left: 65px;
+    padding-left: 50px;
   }
 
   .home2 {
