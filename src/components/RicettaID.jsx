@@ -17,8 +17,8 @@ export const RicettaID = ({
         </div>
 
         <div className="div-categorie">
-          <button className="bt-categoria">{piatto}</button>
-          <button className="bt-categoria">{ingredientePrincipale}</button>
+          <div className="bt-categoria">{piatto}</div>
+          <div className="bt-categoria">{ingredientePrincipale}</div>
         </div>
       </div>
     </>

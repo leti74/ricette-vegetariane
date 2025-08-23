@@ -10,6 +10,7 @@ import { useLocation } from "react-router-dom";
 export const BarraDiRicerca = ({
   titoloBarraDiRicerca,
   placeholderBarraDiRicerca,
+  scrollToRef,
 }) => {
   const location = useLocation();
   const [inputValue, setInputValue] = useState("");
@@ -34,6 +35,9 @@ export const BarraDiRicerca = ({
       .then((risposta) => {
         setRicette(risposta.data.results);
         console.log(risposta.data.results);
+        if (scrollToRef?.current) {
+          scrollToRef.current.scrollIntoView({ behavior: "smooth" });
+        }
       })
       .catch((error) => {
         console.log("errore nella richiesta:", error);

@@ -8,7 +8,7 @@ export const Perche = () => {
       <Navigationbar></Navigationbar>
       <PercheVeg
         percheIMG="/allevamenti.jpg"
-        percheTitolo1="Perché gli animali meritano equità."
+        percheTitolo1="Why animals deserve fairness."
         percheTesto="We often distinguish between companions and farm animals, but
         this division is artificial. A pig can be as affectionate
         as a dog, and a cow can bond deeply with its
