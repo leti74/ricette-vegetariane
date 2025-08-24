@@ -20,7 +20,7 @@ export const CercaRicetta = () => {
         placeholderBarraDiRicerca={"Search among the recipes"}
       />
 
-      <div className="elenco-ricette">
+      <div className="elenco">
         <div ref={elencoRef}>
           <ElencoRicette></ElencoRicette>
         </div>

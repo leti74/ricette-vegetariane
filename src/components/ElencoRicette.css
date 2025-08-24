@@ -12,7 +12,6 @@
   .messaggio-nessuna-ricetta {
     font-size: 1rem;
     text-align: center;
-    margin-top: 9rem;
     color: #888;
     height: 100vh;
   }
@@ -26,6 +25,7 @@
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    padding: 40px 0px 40px !important;
   }
 
   .link-ricetta {

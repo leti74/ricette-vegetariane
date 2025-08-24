@@ -18,7 +18,7 @@ export const RicettePerIngrediente = () => {
         placeholderBarraDiRicerca={"Enter Ingredient"}
       ></BarraDiRicerca>
 
-      <div className="elenco-ricette">
+      <div className="elenco">
         <div ref={elencoRef}>
           <ElencoRicette></ElencoRicette>
         </div>
