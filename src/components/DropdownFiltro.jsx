@@ -18,7 +18,10 @@ export const DropdownFiltro = ({ classeDropdown }) => {
           addRecipeInformation: true,
         },
       })
-      .then((res) => setRicette(res.data.results))
+      .then((res) => {
+        setRicette(res.data.results);
+        console.log(res.data.results);
+      })
       .catch((err) => console.error("Errore nel filtro:", err));
   };
 
@@ -38,7 +41,6 @@ export const DropdownFiltro = ({ classeDropdown }) => {
         Breakfast
       </Dropdown.Item>
       <Dropdown.Item
-        href="#/action-2"
         className="selectedItem"
         onClick={() => {
           handleclickFiltro("snack");
@@ -47,7 +49,6 @@ export const DropdownFiltro = ({ classeDropdown }) => {
         Snack
       </Dropdown.Item>
       <Dropdown.Item
-        href="#/action-3"
         className="selectedItem"
         onClick={() => {
           handleclickFiltro("main course");
@@ -56,7 +57,6 @@ export const DropdownFiltro = ({ classeDropdown }) => {
         Main Course
       </Dropdown.Item>
       <Dropdown.Item
-        href="#/action-3"
         className="selectedItem"
         onClick={() => {
           handleclickFiltro("side dish");
@@ -65,13 +65,12 @@ export const DropdownFiltro = ({ classeDropdown }) => {
         Side dish
       </Dropdown.Item>
       <Dropdown.Item
-        href="#/action-3"
         className="selectedItem"
         onClick={() => {
-          handleclickFiltro("desserts");
+          handleclickFiltro("dessert");
         }}
       >
-        Desserts
+        Dessert
       </Dropdown.Item>
     </DropdownButton>
   );
