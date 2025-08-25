@@ -17,7 +17,6 @@ export const ElencoRicette = () => {
         params: {
           tags: "vegetarian",
           addRecipeInformation: true,
-          number: 8,
           apiKey: API_KEY,
         },
       })
@@ -27,7 +26,7 @@ export const ElencoRicette = () => {
         setRicette(risposta);
       })
       .catch((error) => {
-        console.log("errore durante la chiamata API", error);
+        console.log("error during API call", error);
         return [];
       });
   }, []);
@@ -47,7 +46,7 @@ export const ElencoRicette = () => {
                 Array.isArray(ricetta.extendedIngredients) &&
                 ricetta.extendedIngredients.length > 0
                   ? ricetta.extendedIngredients[0].name
-                  : "Ingrediente non disponibile"
+                  : "Ingredient not available"
               }
             />
           </Link>
