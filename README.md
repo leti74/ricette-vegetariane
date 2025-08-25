@@ -55,7 +55,7 @@ Ecco come utilizzare **VegFacile** passo dopo passo:
    - Ingredienti principali
 
 5. **Visualizza i dettagli**  
-   Clicca su una ricetta per vedere:
+   Clicca su una ricetta per vedere: 
 
    - Descrizione completa
    - Lista ingredienti
@@ -63,3 +63,7 @@ Ecco come utilizzare **VegFacile** passo dopo passo:
 
 6. **Sperimenta e condividi**  
    Prova la ricetta a casa e condividila con amici e familiari.
+
+ ## Link App
+
+ https://leti74.github.io/ricette-vegetariane/
