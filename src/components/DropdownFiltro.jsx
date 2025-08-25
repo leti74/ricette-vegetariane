@@ -6,7 +6,7 @@ import axios from "axios";
 import { useContext } from "react";
 import { ElencoRicetteContext } from "../stores/ElencoRicetteContext";
 
-export const DropdownFiltro = ({ classeDropdown }) => {
+export const DropdownFiltro = ({ classeDropdown, scrollToRef }) => {
   const { setRicette } = useContext(ElencoRicetteContext);
 
   const handleclickFiltro = (categoria) => {
@@ -21,6 +21,9 @@ export const DropdownFiltro = ({ classeDropdown }) => {
       .then((res) => {
         setRicette(res.data.results);
         console.log(res.data.results);
+        if (scrollToRef?.current) {
+          scrollToRef.current.scrollIntoView({ behavior: "smooth" });
+        }
       })
       .catch((err) => console.error("Errore nel filtro:", err));
   };

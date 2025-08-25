@@ -12,10 +12,9 @@ export const CercaRicetta = () => {
     <>
       <Navigationbar />
 
-      <DropdownFiltro classeDropdown="Ricette" />
+      <DropdownFiltro scrollToRef={elencoRef} classeDropdown="Ricette" />
 
       <BarraDiRicerca
-        scrollToRef={elencoRef}
         titoloBarraDiRicerca={"Recipe"}
         placeholderBarraDiRicerca={"Search among the recipes"}
       />
