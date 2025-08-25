@@ -17,6 +17,7 @@ export const CercaRicetta = () => {
       <BarraDiRicerca
         titoloBarraDiRicerca={"Recipe"}
         placeholderBarraDiRicerca={"Search among the recipes"}
+        scrollToRef={elencoRef}
       />
 
       <div className="elenco">
