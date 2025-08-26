@@ -18,6 +18,7 @@ export const ElencoRicette = () => {
           tags: "vegetarian",
           addRecipeInformation: true,
           apiKey: API_KEY,
+          number: 8,
         },
       })
       .then((ricetteCasuali) => {
